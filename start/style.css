@@ -1,0 +1,43 @@
+table {
+    border: 1px;
+    color: #263238;
+    width: 50%;
+}
+
+caption {
+    color: #263238;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #455a64;
+    font-weight: 700;
+    color: white;
+}
+
+.firstcolor {
+    background-color: #eceff1;
+}
+
+.secondcolor {
+background-color: #b0bec5;
+}
+
+tfoot {
+    font-weight: 800;
+    background-color: #78909c;
+}
+
+.entry {
+    color: #003300
+}
+
+.exit {
+    color: #7f0000;
+}
+
+tr td:nth-last-child(-n+2) {
+    text-align: right;
+}
